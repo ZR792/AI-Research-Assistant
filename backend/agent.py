@@ -1,7 +1,7 @@
 from typing import TypedDict, List
 from langgraph.graph import StateGraph, END
 from langchain_core.messages import HumanMessage, AIMessage
-from mcp_server import MCPTools
+from .mcp_server import MCPTools
 
 
 try:
