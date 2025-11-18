@@ -89,13 +89,13 @@ The FastAPI server provides the research endpoint and orchestrates the agent.
 ``
 cd ../backend
 ``
-# Assuming app.py is configured to run with Uvicorn
+Assuming app.py is configured to run with Uvicorn
 ```bash
 python app.py
 ```
 Step 5.2: Start the Frontend UI (Terminal 2)
-``
-streamlit run frontend/streamlit_app.py
-``
+
+``streamlit run frontend/streamlit_app.py``
+
 The Streamlit application will connect to the running backend service.
 
