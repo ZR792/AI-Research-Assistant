@@ -1,0 +1,15 @@
+#.env
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+*.env
+
+# Node dependencies
+node_modules/
+
+# Any temporary folders
+*.log
+*.tmp
+
