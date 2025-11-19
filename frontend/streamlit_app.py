@@ -51,7 +51,7 @@ st.markdown("### Powered by MCP + FastAPI + LangGraph")
 # Sidebar
 with st.sidebar:
     st.header("⚙️ Configuration")
-    backend_url = st.text_input("Backend URL", value="https://ai-research-assistant-3.onrender.com/")
+    backend_url = st.secrets["BACKEND_URL"]
     max_iterations = st.slider("Max Iterations", 1, 10, 5)
     show_debug = st.checkbox("Show debug steps (internal)", value=False)
 
