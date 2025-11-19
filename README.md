@@ -99,3 +99,5 @@ Step 5.2: Start the Frontend UI (Terminal 2)
 
 The Streamlit application will connect to the running backend service.
 
+Check out the live project here: [Live Project](https://ai-research-assistant-ccb7x4evrafh2md7utpsk8.streamlit.app/)
+
